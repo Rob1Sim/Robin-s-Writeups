@@ -88,7 +88,7 @@ def main():
         room = input("Room / Challenge name: ").strip()
         platform_name = input("Platform (THM/HTB/etc.): ").strip()
         iphost = input("IP / Host (optional): ").strip()
-        author = input("Author / Handle [Roban]: ").strip() or "Roban"
+        author = input("Author / Handle [R0B1]: ").strip() or "R0b1"
         difficulty = input("Difficulty (Easy/Medium/Hard): ").strip()
         goal = input("Goal (B2R / CTF / Practice): ").strip()
     except KeyboardInterrupt:
